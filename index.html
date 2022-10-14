@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openplayerjs@latest/dist/openplayer.min.css" />
+    </head>
+    <body>
+        <video class="op-player__media" id="player" controls playsinline>
+            <source src="https://www.googleapis.com/drive/v3/files/1gYVWxNe1n67JJWPjLvWTzGK-DMjrZec8?alt=media&key=AIzaSyCYYPK28wblj6wDFjhP-wxX73PE1RD2wX0" type="video/mp4" />
+            <track kind="subtitles" src="https://raw.githubusercontent.com/fanzyb/subtitle/main/She-Hulk.Attorney.at.Law.S01E09.Whose.Show.is.This.720p.WEB-DL.x264.250MB-Pahe.in.srt" srclang="en" label="English" />
+        </video>
+        <script src="https://cdn.jsdelivr.net/npm/openplayerjs@latest/dist/openplayer.min.js"></script>
+        <script>
+            // Check the `API and events` link below for more options
+            const player = new OpenPlayerJS('player');
+            player.init();
+        </script>
+    </body>
+</html>
